@@ -32,7 +32,7 @@ mean(alive$age, na.rm = TRUE) #mean calculated to be roughly 48, rounded to 2 si
 #for this, we will use a t distribution using a 95% confidence interval
 
 t.test(alive$age, dead$age, alternative = "two.sided", conf.level = 0.95)
-#p value was calculated to be 2.2e-16; the confidence interval tells us that in 95% of 
+#p value was calculated to be 2.2e-16
 #null hypothesis: the difference in age is equal to 0
 #alternative hypothesis: the difference in age is not equal to 0
 
